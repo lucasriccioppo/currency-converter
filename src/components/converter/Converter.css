@@ -1,0 +1,43 @@
+.converter {
+    font-family: 'Roboto';
+    margin: 50px auto auto auto;
+    padding: 20px;
+    max-width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(241, 242, 244);
+}
+
+.currencySelector {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-bottom: 30px;
+    height: 30px;
+}
+
+.subtitle {
+    font-size: 15px;
+    align-self: center;
+}
+
+select {
+    background-color: rgb(202, 198, 198);
+    border-radius: 10px;
+}
+
+.ConvertButton {
+    margin-top: 30px;
+    width: 60%;
+    background-color: rgb(202, 198, 198);
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.ConvertButton:hover {
+    background-color: rgb(157, 154, 154);
+}
